@@ -33,7 +33,7 @@ function divide(number1, number2) {
         return new TypeError("Please enter the required parameters.");
     }
     else {
-        number1 / number2;
+        return number1 / number2;
     }
 }
 exports.divide = divide;
@@ -42,7 +42,7 @@ function remainder(number1, number2) {
         return new TypeError("Please enter the required parameters.");
     }
     else {
-        number1 % number2;
+        return number1 % number2;
     }
 }
 exports.remainder = remainder;
@@ -51,7 +51,7 @@ function exponent(base, power) {
         return new TypeError("Please enter the required parameters.");
     }
     else {
-        Math.pow(base, power);
+        return Math.pow(base, power);
     }
 }
 exports.exponent = exponent;
