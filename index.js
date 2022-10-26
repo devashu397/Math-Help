@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+var arithmetic_1 = require("./functions/arithmetic");
+exports.add = arithmetic_1.add;
+exports.subtract = arithmetic_1.subtract;
+exports.multiply = arithmetic_1.multiply;
+exports.divide = arithmetic_1.divide;
+exports.remainder = arithmetic_1.remainder;
+exports.exponent = arithmetic_1.exponent;
