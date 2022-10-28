@@ -8,6 +8,10 @@ math-help is a NPM package which helps in basic and advanced Math calculations.
 npm i math-help
 ```
 
+# Changes Made
+
+- Added functions to calculate the area of 2D Shapes
+
 # Examples
 
 .add(number1, number2) function
@@ -56,6 +60,54 @@ console.log(math.remainder(45, 9)); //returns the value 0
 const math = require("math-help");
 
 console.log(math.exponent(2, 3)); //returns the value 8
+```
+
+.rectangleArea(length, breadth, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.rectangleArea(12, 4, cm)); //returns the value 48 cm²
+```
+
+.squareArea(side, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.squareArea(12, cm)); //returns the value 144 cm²
+```
+
+.triangleArea(base, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.triangleArea(12, 40, cm)); //returns the value 240 cm²
+```
+
+.trapeziumArea(base1, base2, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.trapeziumArea(22, 10, 4, cm)); //returns the value 64 cm²
+```
+
+.parallelogramArea(base, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.parallelogramArea(12, 5, cm)); //returns the value 60 cm²
+```
+
+.rhombusArea(diagonal1, diagonal2, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.rhombusArea(12, 14, cm)); //returns the value 84 cm²
 ```
 
 # Want to contribute this project?

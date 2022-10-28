@@ -1,6 +1,6 @@
 {
   "name": "math-help",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Helps in basic and advanced Math calculations",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/ItzAshu397/Math-Help.git"
   },
   "keywords": [
-    "maths",
     "math",
+    "maths",
     "math-help"
   ],
   "author": "Ashutosh Swamy",
