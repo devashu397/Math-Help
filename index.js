@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+exports.sphereSurfaceArea = exports.cylinderSurfaceArea = exports.coneSurfaceArea = exports.cubeSurfaceArea = exports.cuboidSurfaceArea = exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
 var arithmetic_1 = require("./functions/arithmetic");
 exports.add = arithmetic_1.add;
 exports.subtract = arithmetic_1.subtract;
@@ -16,3 +16,9 @@ exports.trapeziumArea = _2dShapesArea_1.trapeziumArea;
 exports.parallelogramArea = _2dShapesArea_1.parallelogramArea;
 exports.rhombusArea = _2dShapesArea_1.rhombusArea;
 exports.circleArea = _2dShapesArea_1.circleArea;
+var _3dShapesSurfaceArea_1 = require("./functions/3dShapesSurfaceArea");
+exports.cuboidSurfaceArea = _3dShapesSurfaceArea_1.cuboidSurfaceArea;
+exports.cubeSurfaceArea = _3dShapesSurfaceArea_1.cubeSurfaceArea;
+exports.coneSurfaceArea = _3dShapesSurfaceArea_1.coneSurfaceArea;
+exports.cylinderSurfaceArea = _3dShapesSurfaceArea_1.cylinderSurfaceArea;
+exports.sphereSurfaceArea = _3dShapesSurfaceArea_1.sphereSurfaceArea;

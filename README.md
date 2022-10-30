@@ -10,7 +10,7 @@ npm i math-help
 
 # Changes Made
 
-- Added functions to calculate the area of 2D Shapes
+- Added functions to calculate the total surface area of 3D shapes
 
 # Examples
 
@@ -108,6 +108,46 @@ console.log(math.parallelogramArea(12, 5, cm)); //returns the value 60 cm²
 const math = require("math-help");
 
 console.log(math.rhombusArea(12, 14, cm)); //returns the value 84 cm²
+```
+
+.cuboidSurfaceArea(length, breadth, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.cuboidSurfaceArea(12, 8, 5, cm)); //returns the value 340 cm²
+```
+
+.cubeSurfaceArea(edge, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.cubeSurfaceArea(12, cm)); //returns the value 864 cm²
+```
+
+.coneSurfaceArea(radius, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.coneSurfaceArea(4, 16, cm)); //returns the value 257.51538 cm²
+```
+
+.cylinderSurfaceArea(radius, height, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.cylinderSurfaceArea(4, 10, cm)); //returns the value 351.85838 cm²
+```
+
+.sphereSurfaceArea(radius, unit) function
+
+```js
+const math = require("math-help");
+
+console.log(math.spehereSurfaceArea(7, cm)); //returns the value 615.75216 cm²
 ```
 
 # Want to contribute this project?

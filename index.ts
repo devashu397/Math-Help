@@ -15,6 +15,13 @@ import {
   rhombusArea,
   circleArea,
 } from "./functions/2dShapesArea";
+import {
+  cuboidSurfaceArea,
+  cubeSurfaceArea,
+  coneSurfaceArea,
+  cylinderSurfaceArea,
+  sphereSurfaceArea,
+} from "./functions/3dShapesSurfaceArea";
 
 export { add, subtract, multiply, divide, remainder, exponent };
 export {
@@ -25,4 +32,11 @@ export {
   parallelogramArea,
   rhombusArea,
   circleArea,
+};
+export {
+  cuboidSurfaceArea,
+  cubeSurfaceArea,
+  coneSurfaceArea,
+  cylinderSurfaceArea,
+  sphereSurfaceArea,
 };
