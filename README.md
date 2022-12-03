@@ -10,7 +10,7 @@ npm i math-help
 
 # Changes Made
 
-- Updated the arithmetic functions which would add commas in the final answer
+- Added coordinate geometery functions
 
 # Examples
 
@@ -148,6 +148,46 @@ console.log(math.cylinderSurfaceArea(4, 10, cm)); //returns the value 351.85838 
 const math = require("math-help");
 
 console.log(math.spehereSurfaceArea(7, cm)); //returns the value 615.75216 cm²
+```
+
+.sectionPoint(xcord1, ycord1, xcord2, ycord2, ratio1, ratio2) function
+
+```js
+const math = require("math-help");
+
+console.log(math.sectionPoint(4, -5, 6, 3, 2, 5)); //returns X = 4.571 and Y = -2.714
+```
+
+.midPoint(xcord1, xcord2, ycord1, ycord2) function
+
+```js
+const math = require("math-help");
+
+console.log(math.midPoint(4, -2, -6, 4)); //returns X = 1 and Y = -1
+```
+
+.reflectInXAxis(xcord, ycord) function
+
+```js
+const math = require("math-help");
+
+console.log(math.reflectInXAxis(12, 7)); //returns X = 12 and Y = -7
+```
+
+.reflectInYAxis(xcord, ycord) function
+
+```js
+const math = require("math-help");
+
+console.log(math.reflectInYAxis(-12, 7)); //returns X = 12 and Y = 7
+```
+
+.reflectInOrigin(xcord, ycord) function
+
+```js
+const math = require("math-help");
+
+console.log(math.reflectInOrigin(12, 7)); //returns X = -12 and Y = -7
 ```
 
 # Want to contribute this project?
