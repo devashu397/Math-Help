@@ -1,0 +1,24 @@
+{
+  "name": "math-help",
+  "version": "1.2.0",
+  "description": "Helps in basic and advanced Math calculations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzAshu397/Math-Help.git"
+  },
+  "keywords": [
+    "math",
+    "maths",
+    "math-help"
+  ],
+  "author": "Ashutosh Swamy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItzAshu397/Math-Help/issues"
+  },
+  "homepage": "https://github.com/ItzAshu397/Math-Help#readme"
+}
