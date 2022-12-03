@@ -22,13 +22,6 @@ import {
   cylinderSurfaceArea,
   sphereSurfaceArea,
 } from "./functions/3dShapesSurfaceArea";
-import {
-  sectionPoint,
-  midPoint,
-  reflectInXAxis,
-  reflectInYAxis,
-  reflectInOrigin,
-} from "./functions/coordinateGeometry";
 
 export { add, subtract, multiply, divide, remainder, exponent };
 export {
@@ -46,11 +39,4 @@ export {
   coneSurfaceArea,
   cylinderSurfaceArea,
   sphereSurfaceArea,
-};
-export {
-  sectionPoint,
-  midPoint,
-  reflectInXAxis,
-  reflectInYAxis,
-  reflectInOrigin,
 };
