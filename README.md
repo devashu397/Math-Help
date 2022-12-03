@@ -10,7 +10,7 @@ npm i math-help
 
 # Changes Made
 
-- Added functions to calculate the total surface area of 3D shapes
+- Updated the arithmetic functions which would add commas in the final answer
 
 # Examples
 
