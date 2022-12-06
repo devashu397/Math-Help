@@ -23,6 +23,13 @@ import {
   sphereSurfaceArea,
 } from "./functions/3dShapesSurfaceArea";
 import {
+  cuboidVolume,
+  cubeVolume,
+  coneVolume,
+  cylinderVolume,
+  sphereVolume,
+} from "./functions/3dShapesVolume";
+import {
   sectionPoint,
   midPoint,
   distance,
