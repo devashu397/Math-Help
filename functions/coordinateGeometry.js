@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.midPoint = exports.sectionPoint = void 0;
+exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.distance = exports.midPoint = exports.sectionPoint = void 0;
 function sectionPoint(xcord1, ycord1, xcord2, ycord2, ratio1, ratio2) {
     if (!xcord1 || !xcord2 || !ycord1 || !ycord2 || !ratio1 || !ratio2) {
         return new TypeError("Please enter the required parameters.");
@@ -42,6 +42,18 @@ function reflectInXAxis(xcord, ycord) {
             var y = Math.abs(ycord);
             return "X = ".concat(x.toLocaleString(), "\nY = ").concat(y.toLocaleString());
         }
+    }
+}
+exports.distance = distance;
+function slope(xcord1, xcord2, ycord1, ycord2) {
+    if (!xcord1 || !xcord2 || !ycord1 || !ycord2) {
+        return new TypeError("Please enter the required parameters.");
+    }
+    else {
+        var slopex = xcord2 - xcord1;
+        var slopey = ycord2 - ycord1;
+        var slope_1 = slopey / slopex;
+        return "Slope = ".concat(slope_1.toLocaleString());
     }
 }
 exports.reflectInXAxis = reflectInXAxis;
