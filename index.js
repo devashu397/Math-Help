@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.midPoint = exports.sectionPoint = exports.sphereSurfaceArea = exports.cylinderSurfaceArea = exports.coneSurfaceArea = exports.cubeSurfaceArea = exports.cuboidSurfaceArea = exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.distance = exports.midPoint = exports.sectionPoint = exports.sphereSurfaceArea = exports.cylinderSurfaceArea = exports.coneSurfaceArea = exports.cubeSurfaceArea = exports.cuboidSurfaceArea = exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
 var arithmetic_1 = require("./functions/arithmetic");
 exports.add = arithmetic_1.add;
 exports.subtract = arithmetic_1.subtract;
@@ -25,6 +25,7 @@ exports.sphereSurfaceArea = _3dShapesSurfaceArea_1.sphereSurfaceArea;
 var coordinateGeometry_1 = require("./functions/coordinateGeometry");
 exports.sectionPoint = coordinateGeometry_1.sectionPoint;
 exports.midPoint = coordinateGeometry_1.midPoint;
+exports.distance = coordinateGeometry_1.distance;
 exports.reflectInXAxis = coordinateGeometry_1.reflectInXAxis;
 exports.reflectInYAxis = coordinateGeometry_1.reflectInYAxis;
 exports.reflectInOrigin = coordinateGeometry_1.reflectInOrigin;
