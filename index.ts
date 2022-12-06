@@ -25,6 +25,7 @@ import {
 import {
   sectionPoint,
   midPoint,
+  distance,
   reflectInXAxis,
   reflectInYAxis,
   reflectInOrigin,
@@ -50,6 +51,7 @@ export {
 export {
   sectionPoint,
   midPoint,
+  distance,
   reflectInXAxis,
   reflectInYAxis,
   reflectInOrigin,
