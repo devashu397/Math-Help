@@ -53,6 +53,18 @@ function distance(
   }
 }
 
+function slope(xcord1: number, xcord2: number, ycord1: number, ycord2: number) {
+  if (!xcord1 || !xcord2 || !ycord1 || !ycord2) {
+    return new TypeError("Please enter the required parameters.");
+  } else {
+    let slopex = xcord2 - xcord1;
+    let slopey = ycord2 - ycord1;
+    let slope = slopey / slopex;
+
+    return `Slope = ${slope.toLocaleString()}`;
+  }
+}
+
 function reflectInXAxis(xcord: number, ycord: number) {
   if (!xcord || !ycord) {
     return new TypeError("Please enter the required parameters.");
@@ -121,6 +133,7 @@ export {
   sectionPoint,
   midPoint,
   distance,
+  slope,
   reflectInXAxis,
   reflectInYAxis,
   reflectInOrigin,
