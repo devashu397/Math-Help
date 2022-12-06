@@ -4,7 +4,7 @@ math-help is a NPM package which helps in basic and advanced Math calculations.
 
 # Changes Made
 
-- Fixed the error of visibility of 3d Shapes Volume functions
+- Added slope() function in Coordinate Geometry
 
 # How to install this package?
 
