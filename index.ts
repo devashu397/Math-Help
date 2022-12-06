@@ -55,6 +55,7 @@ export {
   cylinderSurfaceArea,
   sphereSurfaceArea,
 };
+export { cuboidVolume, cubeVolume, coneVolume, cylinderVolume, sphereVolume };
 export {
   sectionPoint,
   midPoint,
