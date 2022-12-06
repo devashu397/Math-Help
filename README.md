@@ -10,7 +10,7 @@ npm i math-help
 
 # Changes Made
 
-- Added coordinate geometery functions
+- Added distance() function for coordinate geometry
 
 # Examples
 
@@ -164,6 +164,14 @@ console.log(math.sectionPoint(4, -5, 6, 3, 2, 5)); //returns X = 4.571 and Y = -
 const math = require("math-help");
 
 console.log(math.midPoint(4, -2, -6, 4)); //returns X = 1 and Y = -1
+```
+
+.distance(xcord1, xcord2, ycord1, ycord2) function
+
+```js
+const math = require("math-help");
+
+console.log(math.distance(-2, 5, 3, 6)); //returns 7.616 units
 ```
 
 .reflectInXAxis(xcord, ycord) function
