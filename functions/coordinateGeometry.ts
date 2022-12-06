@@ -36,6 +36,23 @@ function midPoint(
   }
 }
 
+function distance(
+  xcord1: number,
+  xcord2: number,
+  ycord1: number,
+  ycord2: number
+) {
+  if (!xcord1 || !xcord2 || !ycord1 || !ycord2) {
+    return new TypeError("Please enter the required parameters.");
+  } else {
+    let xstep = xcord2 - xcord1;
+    let ystep = ycord2 - ycord1;
+    let distance = Math.sqrt(xstep * xstep + ystep * ystep);
+
+    return `${distance.toLocaleString()} units`;
+  }
+}
+
 function reflectInXAxis(xcord: number, ycord: number) {
   if (!xcord || !ycord) {
     return new TypeError("Please enter the required parameters.");
@@ -103,6 +120,7 @@ function reflectInOrigin(xcord: number, ycord: number) {
 export {
   sectionPoint,
   midPoint,
+  distance,
   reflectInXAxis,
   reflectInYAxis,
   reflectInOrigin,
