@@ -32,6 +32,7 @@ import {
 import {
   sectionPoint,
   midPoint,
+  centroid,
   distance,
   slope,
   reflectInXAxis,
@@ -60,6 +61,7 @@ export { cuboidVolume, cubeVolume, coneVolume, cylinderVolume, sphereVolume };
 export {
   sectionPoint,
   midPoint,
+  centroid,
   distance,
   slope,
   reflectInXAxis,

@@ -4,7 +4,7 @@ math-help is a NPM package which helps in basic and advanced Math calculations.
 
 # Changes Made
 
-- Added slope() function in Coordinate Geometry
+- Added centroid() function in Coordinate Geometry
 
 # How to install this package?
 

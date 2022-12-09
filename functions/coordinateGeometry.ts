@@ -36,6 +36,23 @@ function midPoint(
   }
 }
 
+function centroid(
+  xcord1: number,
+  xcord2: number,
+  xcord3: number,
+  ycord1: number,
+  ycord2: number,
+  ycord3: number
+) {
+  if (!xcord1 || !xcord2 || !xcord3 || !ycord1 || !ycord2 || !ycord3) {
+    return new TypeError("Please enter the required parameters.");
+  } else {
+    let x = (xcord1 + xcord2 + xcord3) / 3;
+    let y = (ycord1 + ycord2 + ycord3) / 3;
+    return `X = ${x.toLocaleString()}\nY = ${y.toLocaleString()}`;
+  }
+}
+
 function distance(
   xcord1: number,
   xcord2: number,
@@ -132,6 +149,7 @@ function reflectInOrigin(xcord: number, ycord: number) {
 export {
   sectionPoint,
   midPoint,
+  centroid,
   distance,
   slope,
   reflectInXAxis,
