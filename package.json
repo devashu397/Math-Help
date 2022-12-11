@@ -1,6 +1,6 @@
 {
   "name": "math-help",
-  "version": "1.2.5",
+  "version": "1.3.0",
   "description": "Helps in basic and advanced Math calculations",
   "main": "index.js",
   "scripts": {

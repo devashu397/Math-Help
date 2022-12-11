@@ -39,6 +39,7 @@ import {
   reflectInYAxis,
   reflectInOrigin,
 } from "./functions/coordinateGeometry";
+import { degreeToRadian, radianToDegree } from "./functions/conversion";
 
 export { add, subtract, multiply, divide, remainder, exponent };
 export {
@@ -68,3 +69,4 @@ export {
   reflectInYAxis,
   reflectInOrigin,
 };
+export { degreeToRadian, radianToDegree };
