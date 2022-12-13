@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.radianToDegree = exports.degreeToRadian = exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.slope = exports.distance = exports.centroid = exports.midPoint = exports.sectionPoint = exports.sphereVolume = exports.cylinderVolume = exports.coneVolume = exports.cubeVolume = exports.cuboidVolume = exports.sphereSurfaceArea = exports.cylinderSurfaceArea = exports.coneSurfaceArea = exports.cubeSurfaceArea = exports.cuboidSurfaceArea = exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
+exports.mileToKilometer = exports.kilometerToMile = exports.meterToKilometer = exports.kilometerToMeter = exports.radianToDegree = exports.degreeToRadian = exports.reflectInOrigin = exports.reflectInYAxis = exports.reflectInXAxis = exports.slope = exports.distance = exports.centroid = exports.midPoint = exports.sectionPoint = exports.sphereVolume = exports.cylinderVolume = exports.coneVolume = exports.cubeVolume = exports.cuboidVolume = exports.sphereSurfaceArea = exports.cylinderSurfaceArea = exports.coneSurfaceArea = exports.cubeSurfaceArea = exports.cuboidSurfaceArea = exports.circleArea = exports.rhombusArea = exports.parallelogramArea = exports.trapeziumArea = exports.triangleArea = exports.squareArea = exports.rectangleArea = exports.exponent = exports.remainder = exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
 var arithmetic_1 = require("./functions/arithmetic");
 exports.add = arithmetic_1.add;
 exports.subtract = arithmetic_1.subtract;
@@ -40,3 +40,7 @@ exports.reflectInOrigin = coordinateGeometry_1.reflectInOrigin;
 var conversion_1 = require("./functions/conversion");
 exports.degreeToRadian = conversion_1.degreeToRadian;
 exports.radianToDegree = conversion_1.radianToDegree;
+exports.kilometerToMeter = conversion_1.kilometerToMeter;
+exports.meterToKilometer = conversion_1.meterToKilometer;
+exports.kilometerToMile = conversion_1.kilometerToMile;
+exports.mileToKilometer = conversion_1.mileToKilometer;

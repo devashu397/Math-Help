@@ -39,7 +39,14 @@ import {
   reflectInYAxis,
   reflectInOrigin,
 } from "./functions/coordinateGeometry";
-import { degreeToRadian, radianToDegree } from "./functions/conversion";
+import {
+  degreeToRadian,
+  radianToDegree,
+  kilometerToMeter,
+  meterToKilometer,
+  kilometerToMile,
+  mileToKilometer,
+} from "./functions/conversion";
 
 export { add, subtract, multiply, divide, remainder, exponent };
 export {
@@ -69,4 +76,11 @@ export {
   reflectInYAxis,
   reflectInOrigin,
 };
-export { degreeToRadian, radianToDegree };
+export {
+  degreeToRadian,
+  radianToDegree,
+  kilometerToMeter,
+  meterToKilometer,
+  kilometerToMile,
+  mileToKilometer,
+};

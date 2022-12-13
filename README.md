@@ -4,7 +4,7 @@ math-help is a NPM package which helps in basic and advanced Math calculations.
 
 # Changes Made
 
-- Added degreeToRadian() and radianToDegree() functions in Conversion
+- Added kilometerToMeter(), meterToKilometer(), kilometerToMile() and mileToKilometer() functions in Conversion
 
 # How to install this package?
 
