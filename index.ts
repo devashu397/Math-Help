@@ -7,6 +7,15 @@ import {
   exponent,
 } from "./functions/arithmetic";
 import {
+  rectanglePerimeter,
+  squarePerimeter,
+  trianglePerimeter,
+  trapeziumPerimeter,
+  parallelogramPerimeter,
+  rhombusPerimeter,
+  circleCircumference,
+} from "./functions/2dShapesPerimeter";
+import {
   rectangleArea,
   squareArea,
   triangleArea,
@@ -49,6 +58,15 @@ import {
 } from "./functions/conversion";
 
 export { add, subtract, multiply, divide, remainder, exponent };
+export {
+  rectanglePerimeter,
+  squarePerimeter,
+  trianglePerimeter,
+  trapeziumPerimeter,
+  parallelogramPerimeter,
+  rhombusPerimeter,
+  circleCircumference,
+};
 export {
   rectangleArea,
   squareArea,

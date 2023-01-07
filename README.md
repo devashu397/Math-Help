@@ -4,7 +4,7 @@ math-help is a NPM package which helps in basic and advanced Math calculations.
 
 # Changes Made
 
-- Added kilometerToMeter(), meterToKilometer(), kilometerToMile() and mileToKilometer() functions in Conversion
+- Added functions to calculate perimeter of 2D shapes
 
 # How to install this package?
 
